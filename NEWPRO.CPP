@@ -5,7 +5,7 @@
 
 using namespace std ;
 
-const int MAXLENGTH=80;
+const int MAXLENGTH=20;
 const int MAX_TRIES=5;
 const int MAXROW=7;
 
@@ -61,7 +61,7 @@ int main()
 
 	initUnknown(word, unknown);
 
-	cout<<"\n------------------------Ý ..C++ INVESTIGATORY PROJECT.. Ý-----------------------";
+	cout<<"\n------------------------Ã ..C++ INVESTIGATORY PROJECT.. Ã-----------------------";
 	cout<<"\n\n\n\t\tInstructions for this GAME:-";
 	cout<<"\n\n\t\t->You have to Guess the NAMES of COUNTRIES";
 	cout<<"\n\n\t\t->Each letter is represented by a HASH(#)";
@@ -101,8 +101,8 @@ int main()
 		if (strcmp(word, unknown) == 0)
 		{
 
-			cout<< "Yeah! You got it!\nThe Word was : "<< word <<"\n---------------------------Ý Congrats! You WON!";
-			cout<<" Ý---------------------------\n";
+			cout<< "Yeah! You got it!\nThe Word was : "<< word <<"\n---------------------------Ã Congrats! You WON!";
+			cout<<" Ã---------------------------\n";
 			break;
 		}
 
